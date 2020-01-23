@@ -6,9 +6,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+# gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -19,6 +19,11 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
+gem 'pg'
+
+gem 'figaro'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -35,6 +40,13 @@ gem 'bulma-rails', '~> 0.8.0'
 
 # Simple form
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
+
+# HTML inline editor derived from the bootstrap-wysihtml5-rails gem to integrate it with the tkh_cms gem suite.
+gem 'tkh_inline_editor', '~> 0.0.2.1'
+# A rich text editor for everyday writing
+# gem 'trix', '~> 0.11.1'
+# A rich text editor for everyday writing
+gem 'trix-rails', '~> 2.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
