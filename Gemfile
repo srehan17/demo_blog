@@ -20,8 +20,10 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 
+# Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
 gem 'pg'
 
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro'
 
 # Use Redis adapter to run Action Cable in production
@@ -42,11 +44,13 @@ gem 'bulma-rails', '~> 0.8.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
 # HTML inline editor derived from the bootstrap-wysihtml5-rails gem to integrate it with the tkh_cms gem suite.
-gem 'tkh_inline_editor', '~> 0.0.2.1'
+# gem 'tkh_inline_editor', '~> 0.0.2.1'
 # A rich text editor for everyday writing
 # gem 'trix', '~> 0.11.1'
 # A rich text editor for everyday writing
-gem 'trix-rails', '~> 2.2'
+# gem 'trix-rails', '~> 2.2'
+# A beautiful WYSIWYG HTML text editor.
+# gem 'wysiwyg-rails', '~> 3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
