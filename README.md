@@ -1,24 +1,8 @@
-# README
+<h2>Blog with Comments</h2>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I have created a clone of Dribble with the help of Web Crunch videos by Andy Leverenz.
 
-Things you may want to cover:
+The project is deployed on Heroku: https://demoblog123.herokuapp.com/
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Reference: Andy Leverenz, Demo Blog Rails (2017), GitHub repository, https://github.com/justalever/demo_blog_rails
